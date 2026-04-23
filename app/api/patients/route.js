@@ -1,5 +1,5 @@
-import { query, getMany } from "@/lib/db";
-import { requireStaff } from "@/lib/auth";
+import { query, getMany } from "../../../lib/db";
+import { requireStaff } from "../../../lib/auth";
 
 export async function GET(req) {
   try {
